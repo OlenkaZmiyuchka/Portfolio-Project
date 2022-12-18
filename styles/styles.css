@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6C63FF;
+  --primary-color: rgba(108, 99, 255, 1);
   --secondary-color: #a3f7bf;
   --text-color: #222831;
   --background-color: #F9F7FE;
@@ -9,35 +9,36 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: var(--text-color)
 }
 
 h1 {
-  color: var(--text-color);
   font-family: var(--heading-font);
   font-size: 96px;
   font-weight: bold;
 }
 
 h2 {
-  color: var(--text-color);
   font-size: 24px;
   font-weight: 400;
   line-height: 2;
 }
 
-.hero-block {
+.hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 276px 20px;
+  padding: 200px 20px;
 }
 
-.hero-block p {
+.hero p {
   font-size: 36px;
   font-weight: bold;
 }
 
 .hero-button {
+  margin-top: 46px;
   background: var(--primary-color);
+  border: solid 2px var(--primary-color);
   border-radius: 4px;
   padding: 18px 30px;
   color: white;
@@ -45,9 +46,81 @@ h2 {
   line-height: 28px;
   box-shadow: none;
 }
-
 .hero-button:hover {
   background: var(--background-color);
-  border-color: 2px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+.textInfo {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.cardHeader {
+  font-family: var(--heading-font);
+  color: var(--text-color);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.cardText {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 50px 0;
+  opacity: 70%;
+}
+
+.cardDescription {
+  margin: 100px 60px;
+}
+
+.buttonOutline {
+  background: white;
+  border: solid 2px var(--primary-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 28px;
+  box-shadow: none;
+}
+.buttonOutline:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  .hero {
+    padding: 160px 20px;
+  }
+  .hero h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .hero p {
+  font-size: 24px;
+  margin-bottom: 0;
+  }
+
+  .cardHeader {
+    font-size: 32px;
+  }
+  .cardText {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 30px 0;
+  }
+  .cardDescription {
+    margin: 10px;
+    text-align: center;
+  }
 }
