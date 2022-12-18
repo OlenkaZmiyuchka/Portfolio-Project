@@ -1,17 +1,53 @@
+:root {
+  --primary-color: #6C63FF;
+  --secondary-color: #a3f7bf;
+  --text-color: #222831;
+  --background-color: #F9F7FE;
+
+  --heading-font: 'Playfair Display', serif;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  color: #222831;
-  font-family: 'Playfair Display', serif;
+  color: var(--text-color);
+  font-family: var(--heading-font);
+  font-size: 96px;
   font-weight: bold;
 }
 
-p {
-  color:#29a19c;
-  font-weight: normal;
+h2 {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2;
 }
 
-/* #393e46
-#a3f7bf */
+.hero-block {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 276px 20px;
+}
+
+.hero-block p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-button {
+  background: var(--primary-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  box-shadow: none;
+}
+
+.hero-button:hover {
+  background: var(--background-color);
+  border-color: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
