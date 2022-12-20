@@ -9,7 +9,9 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color)
+  color: var(--text-color);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h1 {
@@ -102,12 +104,13 @@ h4 {
 }
 
 
-/* About - Work */
+/* About - Work - Contact */
 
-  .about-hero, .work-hero {
-    padding: 200px 20px 100px 20px;
+  .about-hero, .work-hero, .contact-hero {
+    padding-top: 200px;
+    padding-bottom: 100px;
   }
-  .about-hero h1, .work-hero h1 {
+  .about-hero h1, .work-hero h1, .contact-hero h1 {
     font-size: 64px;
   }
   .about-hero h2 {
@@ -122,6 +125,7 @@ h4 {
     background-color: var(--background-color);
     padding: 50px 100px;
     border-radius: 20px;
+    margin-top: 50px;
   }
   .workInquiry p {
     font-size: 18;
@@ -149,6 +153,24 @@ h4 {
     text-align: center;
     margin-top: 30px;
     border-radius: 20px;
+  }
+
+
+/* Contact */
+
+  .contact-hero a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 70%;
+  }
+  .contact-hero a:hover {
+    color: var(--primary-color);
+  }
+  .contact-hero .fa-brands, .fa-solid {
+    font-size: 18px;
+    color: var(--primary-color);
+    margin-right: 10px;
   }
 
 
@@ -208,8 +230,8 @@ h4 {
     margin-top: 30px;
   }
 
-  .workInquiry{
-    padding: 40px 20px;
+  .workInquiry {
+    padding: 40px 30px;
     margin-top: 40px;
     text-align: center;
     border-radius: 20px;
