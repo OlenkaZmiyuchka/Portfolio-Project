@@ -94,6 +94,14 @@ h2 {
   color: white;
 }
 
+
+/* About */
+
+.about-hero {
+  padding: 200px 20px;
+}
+
+
 @media (max-width: 900px) {
   h1 {
     font-size: 52px;
@@ -111,16 +119,24 @@ h2 {
   margin-bottom: 0;
   }
 
+  .textInfo {
+    margin: 70px 20px;
+    line-height: 1.5;
+  }
+  
+  .cardImage {
+    display: none;
+  }
   .cardHeader {
     font-size: 32px;
   }
   .cardText {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     margin: 30px 0;
   }
   .cardDescription {
-    margin: 10px;
+    margin: 20px 20px 40px 20px;
     text-align: center;
   }
 }
