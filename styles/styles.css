@@ -24,6 +24,13 @@ h2 {
   line-height: 2;
 }
 
+h3 {
+  font-family: var(--heading-font);
+  color: var(--text-color);
+  font-size: 48px;
+  font-weight: bold;
+}
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
@@ -36,7 +43,6 @@ h2 {
 }
 
 .hero-button {
-  margin-top: 46px;
   background: var(--primary-color);
   border: solid 2px var(--primary-color);
   border-radius: 4px;
@@ -58,14 +64,12 @@ h2 {
   text-align: center;
   margin: 100px 0;
 }
-
 .cardHeader {
   font-family: var(--heading-font);
   color: var(--text-color);
   font-size: 64px;
   font-weight: bold;
 }
-
 .cardText {
   color: var(--text-color);
   font-size: 16px;
@@ -74,7 +78,6 @@ h2 {
   margin: 50px 0;
   opacity: 70%;
 }
-
 .cardDescription {
   margin: 100px 60px;
 }
@@ -97,9 +100,34 @@ h2 {
 
 /* About */
 
-.about-hero {
-  padding: 200px 20px;
-}
+  .about-hero {
+    padding: 200px 20px;
+  }
+  .about-hero h1 {
+    font-size: 64px;
+  }
+  .about-hero h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .about-hero p {
+    margin: 30px 40px 40px 0;
+  }
+
+  .workInquiry{
+    background-color: var(--background-color);
+    padding: 50px 100px;
+    border-radius: 20px;
+  }
+  .workInquiry p {
+    font-size: 18;
+    opacity: 70%;
+  }
+  .workInquiry-button {
+    text-align: center;
+  }
+  
+
 
 
 @media (max-width: 900px) {
@@ -124,9 +152,9 @@ h2 {
     line-height: 1.5;
   }
   
-  .cardImage {
+  /* .cardImage {
     display: none;
-  }
+  } */
   .cardHeader {
     font-size: 32px;
   }
@@ -139,4 +167,35 @@ h2 {
     margin: 20px 20px 40px 20px;
     text-align: center;
   }
+
+  .about-hero {
+    padding: 30px;
+    text-align: center;
+  }
+  .about-hero h1 {
+    font-size: 44px;
+  }
+  .about-hero h2 {
+    font-size: 16px;
+  }
+  .about-hero p {
+    font-size: 16px;
+    margin: 30px 10px;
+  }
+  .about-hero .img-fluid {
+    margin-top: 30px;
+  }
+
+  .workInquiry{
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .workInquiry .hero-button {
+    padding: 20px 30px;
+  }
+
+
+
 }

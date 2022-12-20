@@ -15,7 +15,28 @@
   <title>💡 Portfolio Project</title>
   <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
+  <nav class="navbar fixed-top navbar-expand-lg bg-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-black" title="home" href="index.html">
+        <img src="images/logo.png" alt="logo" height="42px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link text-black" href="about.html">About</a>
+          <a class="nav-link text-black" href="work.html">Work</a>
+          <a class="nav-link text-black" href="about.html#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="hero">
     <p>
       Hi there 👋 I`m
@@ -27,7 +48,7 @@
       Frontend Developer, based in Kyiv 🇺🇦.
     </h2>
     <a href="index.html">
-      <button class="hero-button">
+      <button class="hero-button mt-5">
         Contact me
       </button>
     </a>
@@ -41,7 +62,7 @@
   <div class="container">
     <div class="row mb-5">
       <div class="col-md-6">
-        <img src="images/yogurt.png" alt="yogurt" class="img-fluid cardImage">
+        <img src="images/yogurt.png" alt="yogurt" class="img-fluid d-none d-md-block cardImage">
       </div>
       <div class="col-md-6">
         <div class="cardDescription">
@@ -83,13 +104,13 @@
         </div>
       </div>
       <div class="col-md-6">
-        <img src="images/Weather-App.png" alt="Weather-App" class="img-fluid cardImage">
+        <img src="images/Weather-App.png" alt="Weather-App" class="img-fluid d-none d-md-block cardImage">
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-6">
-        <img src="images/Dictionary-App.png" alt="Dictionary-App" class="img-fluid cardImage">
+        <img src="images/Dictionary-App.png" alt="Dictionary-App" class="img-fluid d-none d-md-block cardImage">
       </div>
       <div class="col-md-6">
         <div class="cardDescription">
