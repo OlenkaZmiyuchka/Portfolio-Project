@@ -17,25 +17,25 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg bg-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand text-black" title="home" href="index.html">
-        <img src="images/logo.png" alt="logo" height="42px">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link text-black" aria-current="page" href="index.html">Home</a>
-          <a class="nav-link text-black" href="about.html">About</a>
-          <a class="nav-link text-black" href="work.html">Work</a>
-          <a class="nav-link text-black" href="contact.html">Contact</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="images/logo.png" alt="logo" class="logo d-none d-md-block">
+          <img src="images/logo-sm.jpg" alt="logo" class="logo d-block d-md-none">
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a></li>
+          <li>
+            <a href="/work.html">Work</a></li>
+          <li>
+            <a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+  </div>
 
   <div class="hero">
     <p>
