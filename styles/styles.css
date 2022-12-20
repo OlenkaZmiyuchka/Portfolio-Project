@@ -60,13 +60,17 @@ nav a {
 nav a:hover, nav li.active a {
   color: var(--primary-color);
 }
+.sticky-top {
+  background-color: var(--background-color);
+}
 
 
+/* Homepage */
 
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 200px 20px;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -133,7 +137,7 @@ nav a:hover, nav li.active a {
 /* About - Work - Contact */
 
   .about-hero, .work-hero, .contact-hero {
-    padding-top: 200px;
+    padding-top: 160px;
     padding-bottom: 100px;
   }
   .about-hero h1, .work-hero h1, .contact-hero h1 {
