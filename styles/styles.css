@@ -85,8 +85,14 @@ footer .hero-button {
   margin-bottom: 100px;
   text-align: center;
 }
-.footerIcon h2 {
+.footerEmail {
   color: var(--text-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+}
+.footerEmail:hover {
+  color: var(--primary-color);
 }
 .workInquiry{
   background-color: var(--background-color);
