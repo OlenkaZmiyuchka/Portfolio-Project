@@ -65,18 +65,40 @@ nav a:hover, nav li.active a {
 }
 
 
-/* Homepage */
+/* Footer */
 
-.hero {
-  background-color: var(--background-color);
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: var(--primary-color);
+}
+footer i {
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.footerIcon {
+  margin-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
-  padding: 160px 20px;
 }
+.footerIcon h2 {
+  color: var(--text-color);
+}
+.workInquiry{
+  background-color: var(--background-color);
+  padding: 50px 100px;
+  border-radius: 20px;
+  margin-top: 150px;
+  }
+.workInquiry p {
+  font-size: 18;
+  opacity: 70%;
+  }
+.workInquiry-button {
+  text-align: center;
+  }
 
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-}
 
 .hero-button {
   background: var(--primary-color);
@@ -85,12 +107,40 @@ nav a:hover, nav li.active a {
   padding: 18px 30px;
   color: white;
   font-size: 18px;
-  line-height: 28px;
   box-shadow: none;
 }
+
 .hero-button:hover {
   background: var(--background-color);
   color: var(--primary-color);
+}
+
+.buttonOutline {
+  background: white;
+  border: solid 2px var(--primary-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  color: var(--primary-color);
+  font-size: 18px;
+  box-shadow: none;
+}
+
+.buttonOutline:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+
+/* Homepage */
+
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .textInfo {
@@ -118,92 +168,61 @@ nav a:hover, nav li.active a {
   margin: 100px 60px;
 }
 
-.buttonOutline {
-  background: white;
-  border: solid 2px var(--primary-color);
-  border-radius: 4px;
-  padding: 18px 30px;
-  color: var(--primary-color);
-  font-size: 18px;
-  line-height: 28px;
-  box-shadow: none;
-}
-.buttonOutline:hover {
-  background: var(--primary-color);
-  color: white;
-}
-
 
 /* About - Work - Contact */
 
-  .about-hero, .work-hero, .contact-hero {
-    padding-top: 160px;
-    padding-bottom: 100px;
-  }
-  .about-hero h1, .work-hero h1, .contact-hero h1 {
-    font-size: 64px;
-  }
-  .about-hero h2 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .about-hero p {
-    margin: 30px 40px 40px 0;
-  }
-
-  .workInquiry{
-    background-color: var(--background-color);
-    padding: 50px 100px;
-    border-radius: 20px;
-    margin-top: 50px;
-  }
-  .workInquiry p {
-    font-size: 18;
-    opacity: 70%;
-  }
-  .workInquiry-button {
-    text-align: center;
-  }
+.about-hero, .work-hero, .contact-hero {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+.about-hero h1, .work-hero h1, .contact-hero h1 {
+  font-size: 64px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-hero p {
+  margin: 30px 40px 40px 0;
+}
 
 
 /* Work */
 
-  .work-hero p {
-    text-align: center;
-    font-size: 14px;
-    opacity: 70%;
-    line-height: 1.5;
-  }
-  .work-hero h2 {
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.5;
-  }
-  .workImage {
-    text-align: center;
-    margin-top: 30px;
-    border-radius: 20px;
-  }
+.work-hero p {
+  text-align: center;
+  font-size: 14px;
+  opacity: 70%;
+  line-height: 1.5;
+}
+.work-hero h2 {
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+}
+.workImage {
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 20px;
+}
 
 
 /* Contact */
 
-  .contact-hero a {
-    font-size: 16px;
-    text-decoration: none;
-    color: var(--text-color);
-    opacity: 70%;
-  }
-  .contact-hero a:hover {
-    color: var(--primary-color);
-  }
-  .contact-hero .fa-brands, .fa-solid {
-    font-size: 18px;
-    color: var(--primary-color);
-    margin-right: 10px;
-  }
-
-
+.contact-hero a {
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--text-color);
+  opacity: 70%;
+}
+.contact-hero a:hover {
+  color: var(--primary-color);
+}
+.contact-hero .fa-brands, .fa-solid {
+  font-size: 18px;
+  color: var(--primary-color);
+  margin-right: 10px;
+}
 
 
 
@@ -212,12 +231,27 @@ nav a:hover, nav li.active a {
     font-size: 52px;
   }
 
+  footer {
+    margin-top: 80px;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+  .workInquiry {
+    padding: 40px 30px;
+    text-align: center;
+  }
+  .footerIcon {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
 
   .hero {
-    padding: 160px 20px;
+    padding: 140px 20px;
   }
   .hero h2 {
     font-size: 20px;
+    padding: 0 20px;
     margin-top: 20px;
   }
   .hero p {
@@ -226,7 +260,8 @@ nav a:hover, nav li.active a {
   }
 
   .textInfo {
-    margin: 70px 20px;
+    margin: 50px 20px;
+    padding: 0 20px;
     line-height: 1.5;
   }
 
@@ -239,7 +274,7 @@ nav a:hover, nav li.active a {
     margin: 30px 0;
   }
   .cardDescription {
-    margin: 20px 20px 40px 20px;
+    margin: 10px 20px 20px 20px;
     text-align: center;
   }
 
@@ -260,17 +295,5 @@ nav a:hover, nav li.active a {
   .about-hero .img-fluid {
     margin-top: 30px;
   }
-
-  .workInquiry {
-    padding: 40px 30px;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 20px;
-  }
-  .workInquiry .hero-button {
-    padding: 20px 30px;
-  }
-
-
 
 }
