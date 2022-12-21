@@ -139,6 +139,35 @@ footer .hero-button {
   color: white;
 }
 
+/* Footer */
+
+footer h2 {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+footer h2:hover {
+  color: var(--primary-color);
+}
+
+.footerIcon i {
+  font-size: 24px;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+
+.footerIcon i:hover {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+.workInquiry p {
+  margin: 0;
+}
+
 
 /* Homepage */
 
@@ -176,32 +205,6 @@ footer .hero-button {
 .cardDescription {
   margin: 100px 60px;
 }
-
-/* Footer */
-
-  footer h2 {
-    font-size: 20px;
-    color: var(--text-color);
-  }
-  footer h2:hover {
-    color: var(--primary-color);
-  }
-  .footerIcon i {
-    font-size: 24px;
-    margin: 10px 20px;
-    padding: 10px;
-    border-radius: 50%;
-    color: var(--primary-color);
-    background-color: var(--background-color);
-  }
-  .footerIcon i:hover {
-    color: var(--background-color);
-    background-color: var(--primary-color);
-  }
-  .workInquiry p {
-    margin: 0;
-  }
-
 
 
 /* About - Work - Contact */
