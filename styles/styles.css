@@ -40,7 +40,7 @@ h4 {
 nav {
   padding: 20px;
 }
-ul {
+nav ul {
   margin: 0;
   padding: 0;
 }
@@ -76,6 +76,9 @@ footer a:hover {
 footer i {
   font-size: 24px;
   color: var(--primary-color);
+}
+footer .hero-button {
+  text-align: center;
 }
 .footerIcon {
   margin-top: 100px;
@@ -168,6 +171,32 @@ footer i {
   margin: 100px 60px;
 }
 
+/* Footer */
+
+  footer h2 {
+    font-size: 20px;
+    color: var(--text-color);
+  }
+  footer h2:hover {
+    color: var(--primary-color);
+  }
+  .footerIcon i {
+    font-size: 24px;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+  }
+  .footerIcon i:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+  .workInquiry p {
+    margin: 0;
+  }
+
+
 
 /* About - Work - Contact */
 
@@ -231,18 +260,28 @@ footer i {
     font-size: 52px;
   }
 
+  nav li {
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
   footer {
     margin-top: 80px;
   }
-  footer h2 {
-    font-size: 20px;
+  footer .hero-button {
+    margin-top: 20px;
   }
   .workInquiry {
-    padding: 40px 30px;
+    padding: 40px 20px;
     text-align: center;
   }
+  .workInquiry h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
   .footerIcon {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 80px;
   }
 
